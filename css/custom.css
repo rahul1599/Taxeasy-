@@ -1,0 +1,460 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+}
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mid .hero{
+    position: relative;
+    background: #1917172e;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.mid .hero p{
+    width: 100%;
+    font-size:1.1rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1rem;
+} 
+.mid .hero a{
+    background-color:#089cb9;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.mid .hero a:hover{
+    background-color:#f26531;
+
+}
+
+
+.layout_padding {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+/* studies section start */
+
+.studies_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 100px;
+}
+
+.studies_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #001431;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+}
+
+.studies_section_2 {
+    width: 100%;
+    float: left;
+    padding: 40px 0px 0px 0px;
+}
+
+.studies_box {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: auto;
+    padding: 30px 10px;
+    box-shadow: 0px -3px 15px 0px;
+}
+
+
+/* Zoom In #1 */
+
+.hover01 figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    min-height: 370px;
+}
+
+.hover01 figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.column {
+    margin: 15px 0px 0;
+    padding: 0;
+    box-shadow: 0px 10px 15px 0px;
+}
+
+.column:last-child {
+    padding-bottom: 30px;
+}
+
+.column::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+.introduction_text {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #001431;
+    font-size: 20px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.read_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    background-color: #001431;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.read_bt a:hover {
+    color: #ffffff;
+    background-color: #e53232;
+}
+
+.read_bt.active a {
+    color: #ffffff;
+    background-color: #e53232;
+}
+
+
+/* studies section end */
+
+/* about section start */
+
+.about_section {
+    width: 100%;
+    float: left;
+    background-color: #001431;
+    height: auto;
+    padding: 90px 0px 40px 0px;
+}
+
+.about_text_main {
+    width: 100%;
+    float: left;
+    padding: 100px 0px;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fefefd;
+    margin: 30px 0px 0px 0px;
+}
+
+.about_img {
+    width: auto;
+    margin-top: 30px;
+}
+
+.readmore_bt {
+    width: 170px;
+    float: left;
+    margin-top: 50px;
+}
+
+.readmore_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #e73232;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.readmore_bt a:hover {
+    color: #ffffff;
+    background-color: #001431;
+}
+
+
+/* about section end */
+
+
+/* box section start */
+
+.box_section {
+    width: 100%;
+    float: left;
+    position: relative;
+    top: -100px;
+}
+
+.online_box {
+    width: 100%;
+    display: flex;
+}
+
+.online_box_left {
+    width: 100%;
+    float: left;
+    background-color: #fefefd;
+    height: auto;
+    padding: 30px;
+    box-shadow: 0px 9px 15px 5px #ededed;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.online_box_main {
+    width: 100%;
+    display: flex;
+}
+
+.box_left {
+    width: auto;
+}
+
+.box_right {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.right_arrow {
+    width: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #001431;
+    border-radius: 100%;
+    text-align: center;
+    padding: 7px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.book_text {
+    width: 100%;
+    font-size: 16px;
+    color: #e73232;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.appoinment_text {
+    width: 100%;
+    font-size: 20px;
+    color: #001431;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.online_box_left:hover {
+    background-color: #e73232;
+}
+
+.online_box_left:hover .book_text {
+    color: #ffffff;
+}
+
+.online_box_left:hover .appoinment_text {
+    color: #ffffff;
+}
+
+.online_box_left.active {
+    background-color: #e73232;
+}
+
+.online_box_left.active .book_text {
+    color: #ffffff;
+}
+
+.online_box_left.active .appoinment_text {
+    color: #ffffff;
+}
+
+
+@media (max-width: 575px){
+.online_box {
+    width: 100%;
+    display: block;
+}
+.online_box_left {
+    margin: 10px 0px;
+}
+}
+
+
+/* box section end */
+
+/* services section start */
+
+.services_section {
+    width: 100%;
+    float: left;
+}
+
+.services_section_2 {
+    width: 100%;
+    float: left;
+    background-color: #f8f2e2;
+    padding: 90px 0px;
+    margin-top: 60px;
+}
+
+.corporate_text {
+    width: 100%;
+    float: left;
+    color: #001431;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+p.chunks_text {
+    width: 80%;
+    float: left;
+    font-size: 16px;
+    margin: 0px;
+    color: #001431;
+}
+
+.readmore_button {
+    width: 160px;
+    float: left;
+    margin-top: 30px;
+}
+
+.readmore_button a {
+    width: 160px;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #001431;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.service_box .house_icon .image_2 {
+    display: none;
+}
+
+.service_box:hover .house_icon .image_2 {
+    display: block;
+}
+
+.service_box:hover .house_icon .image_1 {
+    display: none;
+}
+
+.service_box:hover .corporate_text {
+    color: #e73232;
+}
+
+.service_box:hover .readmore_button a {
+    background-color: #e73232;
+    color: #ffffff;
+}
+
+.service_box.active .corporate_text {
+    color: #e73232;
+}
+
+.service_box.active .readmore_button a {
+    background-color: #e73232;
+    color: #ffffff;
+}
+
+#main_slider a.carousel-control-prev {
+    left: 40px;
+    top: 130px;
+}
+
+#main_slider a.carousel-control-next {
+    right: 40px;
+    top: 130px;
+}
+
+#main_slider .carousel-control-next,
+#main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background: #001431;
+    opacity: 1;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 100px;
+}
+
+#main_slider .carousel-control-next:focus,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-prev:hover {
+    color: #ffffff;
+    background-color: #e73232
+}
+
+
+/* services section end */
+
