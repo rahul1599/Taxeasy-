@@ -845,6 +845,90 @@
          -webkit-transform: translateY(0px);
     }
 }
+
+/*--------------------------------------------About us --------------------------------------*/
+
+/** work section **/
+
+.work {
+    background: #fff;
+    padding-top: 90px;
+}
+
+.margi_bottom30 {
+    margin-bottom: 80px;
+}
+
+.marg_left {
+    margin-left: -40px;
+}
+
+.marg_right {
+    margin-right: -40px;
+}
+
+.work_img {
+    margin-bottom: 30px;
+}
+
+.work_img figure {
+    margin: 0;
+}
+
+.work_img figure img {
+    z-index: 9999;
+    position: relative;
+    padding: 5px 0;
+}
+
+.work_img {
+    position: relative;
+}
+
+.work_img::before {
+    position: absolute;
+    content: "";
+    background: #ddd;
+    width: 89%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+}
+
+.work_img::after {
+    position: absolute;
+    content: "";
+    background: #e8576f;
+    width: 130px;
+    height: 15px;
+    bottom: -10px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+
+.work_box {
+    margin-bottom: 30px;
+}
+
+.work_box h3 {
+    color: #333333;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.work_box p {
+    padding: 20px 0 40px 0;
+}
+
+
+
+
+
+
 /*------------------------------------------------------------------ Blog -------------------------------------------------------------------*/
  .latest-blog{
      padding: 70px 0px;
