@@ -1128,7 +1128,7 @@ ul{
 }
 .sec-title h2{
     position: relative;
-    color: #f4e501;
+    color: #f4f4f4;
     font-weight: 700;
     font-size:25px;
     line-height: 1.2em;
@@ -1519,10 +1519,7 @@ ul{
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
  .all-title-box{
      background: url("../images/all-bg-title.jpg") no-repeat;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -ms-background-size: cover;
-     -o-background-size: cover;
+     
      background-size: cover;
      text-align: center;
      background-attachment: fixed;
