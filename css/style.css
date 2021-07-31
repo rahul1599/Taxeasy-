@@ -955,11 +955,11 @@
 /*----- income tax overlay ---------*/
 /*---- our team------*/
 .row.heading h2 {
-    color:#e83231;
-    font-size: 52.52px;
+    color:#001431;
+    font-size: 40px;
     line-height: 95px;
-    font-family: sans-serif;
-    font-weight: 400;
+    font-family: Montserrat;
+    font-weight: 600;
     text-align: center;
     margin: 0 0 40px;
     padding-bottom: 20px;
@@ -1074,8 +1074,7 @@ ul{
 /* text animation */
  
 .qt-background{
-  background-image: linear-gradient(to bottom,rgba(0,136,220,0.8), rgba(174,67,7,0.5)),
-                     url(images/banner-02.jpg);                  
+  background-color: #072846;                  
   background-size: cover;
   padding: 100px 0;
   background-attachment: fixed;
@@ -1117,7 +1116,7 @@ ul{
 
 .sec-title h1{
     position: relative;
-    color: #f4e501;
+    color: #e83231;
     font-weight: 900;
     font-size:40px;
     line-height: 1.2em;
