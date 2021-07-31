@@ -18,7 +18,7 @@
     pointer-events: none;
     object-fit: cover;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -333,7 +333,7 @@ figure:hover+span {
 }
 
 
-@media (max-width: 575px){
+@media  (max-width: 700px){
 .online_box {
     width: 100%;
     display: block;
@@ -454,6 +454,7 @@ p.chunks_text {
     color: #ffffff;
     background-color: #e73232
 }
+
 
 
 /* services section end */
